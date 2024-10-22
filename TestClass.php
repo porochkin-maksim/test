@@ -2,7 +2,9 @@
 
 class TestClass
 {
-    public function __construct()
+    public function __construct(
+        public int $id,
+    )
     {
     }
 }
